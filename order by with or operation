@@ -1,0 +1,5 @@
+Write the SQL query to select the column itemname whose quantity is less than 15 or the price is more than 10 from the table menu.
+Note: There is only one column fetched in the result set which is itemname.
+The result set must be ordered by the column itemname in ascending order.
+answer:
+select itemname from menu where quantity < 15 or price > 10 order by itemname asc;
