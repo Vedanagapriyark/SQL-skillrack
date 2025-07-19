@@ -1,0 +1,5 @@
+A table called book is created with the following DDL command:
+create table book(id INT, bookname VARCHAR(100), author VARCHAR(100));
+Write the SQL query to select all the records from the table book and to sort the result in ascending order by bookname and then by author.
+answer:
+select * from book order by bookname, author asc;
