@@ -1,0 +1,6 @@
+Q2: busroute is a table to store bus id, source, destination and duration of travel in hours. 
+The columns are busid, source, destination, duration (E.g busid is like V180, source is like "chennai", destination is like "hyderabad", duration is like 7). 
+Write the SQL statement to fetch busid (that is the column value of busid) of buses travelling from "chennai" to "bangalore" (that is source as chennai and destination as bangalore).
+
+Answer: 
+select busid from busroute where source='chennai' and destination='bangalore';
