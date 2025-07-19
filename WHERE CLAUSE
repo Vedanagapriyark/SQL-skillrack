@@ -1,0 +1,7 @@
+Q1:  A table called book is created with the following DDL command: 
+create table book(id INT, name VARCHAR(100), published year INT); 
+Write the SQL query to select the names of the books who published year is 2008 from the table book.
+
+Answer:
+select name from book where publishedyear=2008;
+
