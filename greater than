@@ -1,0 +1,5 @@
+Q5: marks is a table to store student id, student name, marks scored by the student. 
+The columns are id, name, score (id is like 105, name is like 'Manish Tiwari' and score is a number like 65). 
+Write the SQL statement to fetch the name of the students whose score is greater than 60 from the marks table.
+Answer:
+select name from marks where score>=60;
