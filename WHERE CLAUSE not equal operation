@@ -1,0 +1,6 @@
+Q4: movie is a table to store name, language and year of release of movies in a given country.
+the columns are name, language and release year (language is like 'spanish' and release year is a number like 2013).
+write the sql statement to fetch the name of the movies where releaseyear is not equal to 2013.
+
+Answer:
+select name from movie where releaseyear!=2013
