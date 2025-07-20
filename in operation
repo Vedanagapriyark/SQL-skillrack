@@ -1,0 +1,11 @@
+A table called car is created with the following DDL command: 
+create table car (id INT, name VARCHAR(100), topspeed INT); 
+Write the SQL query to select name and topspeed from the table car where topspeed value is any one of these values - 190, 408, 220 and 349. 
+Note: The order of the columns in the result set must be name, topspeed. 
+The result set must be ordered by the column value topspeed in descending order.
+
+answer:
+SELECT name, topspeed
+FROM car
+WHERE topspeed IN (190, 408, 220, 349)
+ORDER BY topspeed DESC;
