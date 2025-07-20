@@ -1,0 +1,9 @@
+A table called student is created with the following DDL command: 
+create table student(id int, name varchar(20), marks int);
+Write the SQL query to select first five students name and marks from the table student with the result set sorted by name and then by marks (both) in descending order.
+
+answer:
+SELECT name, marks
+FROM student
+ORDER BY name DESC, marks DESC
+LIMIT 5;
