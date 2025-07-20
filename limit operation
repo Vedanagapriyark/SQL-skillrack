@@ -1,0 +1,7 @@
+A table called car is created with the following DDL command: create table car (id INT, name VARCHAR(100), topspeed INT); 
+Write the SQL query to select the columns name and topspeed from the table car for the top five fastest cars. 
+Note: The order of the columns in the result set must be name, topspeed. 
+The result set must be ordered by the column topspeed in descending order
+
+answer:
+select name, topspeed from car order by topspeed desc limit 5;
