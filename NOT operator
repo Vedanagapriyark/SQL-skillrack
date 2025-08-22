@@ -1,0 +1,1 @@
+select itemname from menu where not quantity=0 order by itemname;
