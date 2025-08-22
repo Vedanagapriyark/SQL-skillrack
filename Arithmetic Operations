@@ -1,0 +1,1 @@
+select name, (physics+maths+chemistry) as total from student order by name;
