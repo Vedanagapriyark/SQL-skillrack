@@ -1,0 +1,1 @@
+select count(distinct price) from mill where price>10000;
