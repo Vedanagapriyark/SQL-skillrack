@@ -1,0 +1,1 @@
+update mobile set maker='Lenovo', model='A1000' where id=3; 
