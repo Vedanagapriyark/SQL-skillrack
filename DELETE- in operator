@@ -1,0 +1,1 @@
+delete from college where location in('Bangalore','ghaziabad');
