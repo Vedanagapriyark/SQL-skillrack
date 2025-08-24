@@ -1,0 +1,1 @@
+select empid, sum(salary) as total from employee group by empid having total > 25000;
