@@ -1,0 +1,1 @@
+update staff set salary=salary* 2.5 where staffid=101 limit 3;
