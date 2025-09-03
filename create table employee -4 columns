@@ -1,0 +1,1 @@
+create employee (empid int, empname varchar(20), salary int, MMM varchar(9));
