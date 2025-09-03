@@ -1,0 +1,1 @@
+delete from menu where itemname <> 'Pen' and itemprice =10;
