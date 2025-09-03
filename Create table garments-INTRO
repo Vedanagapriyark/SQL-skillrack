@@ -1,0 +1,1 @@
+create table garments(productid int, productname varchar(100), gender varchar(1), productsize varchar(4), price int )
